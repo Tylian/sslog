@@ -63,8 +63,8 @@ const App = () => {
     </table>
 
     <footer className="text-center text-sm mt-4">
-      Made with love by <a className="hover:text-blue-400 text-blue-600" href="http://reddit.com/user/cute-kitsune">/u/cute-kitsune</a>, with data and logic either directly or indirectly from <a className="text-blue-400" href="http://reddit.com/user/Clorifex">/u/Clorifex</a>, <a className="text-blue-400" href="http://reddit.com/user/Rogueadyn">/u/Rogueadyn</a> and <a className="text-blue-400" href="https://docs.google.com/spreadsheets/d/1kbvzIWgXKJZFL08oPge_szSeYVNWbXije-aY2MCyeEc/edit#gid=0">this spreadsheet</a>.<br />
-      Version 0.8.0-beta <small className="text-xs">(Last update: Added decimals to the locations!)</small>
+      Made with love by <a className="hover:text-blue-400 text-blue-600" href="https://reddit.com/user/cute-kitsune">/u/cute-kitsune</a>, with data and logic either directly or indirectly from <a className="text-blue-400" href="http://reddit.com/user/Clorifex">/u/Clorifex</a>, <a className="text-blue-400" href="http://reddit.com/user/Rogueadyn">/u/Rogueadyn</a> and <a className="text-blue-400" href="https://docs.google.com/spreadsheets/d/1kbvzIWgXKJZFL08oPge_szSeYVNWbXije-aY2MCyeEc/edit#gid=0">this spreadsheet</a>.<br />
+      Version 0.8.0-beta <small className="text-xs">(<a className="hover:text-blue-400 text-blue-600" href="https://github.com/tylian/sslog/">Source code</a>)</small>
     </footer>
   </div>
 };
