@@ -1,0 +1,43 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html {
+  overflow-y: scroll;
+}
+
+.toggle__dot {
+  top: -.25rem;
+  left: -.25rem;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 2px 1px -1px rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 1px 3px 0 rgba(0,0,0,.12);
+}
+
+input:checked ~ .toggle__dot {
+  transform: translateX(100%);
+  @apply bg-green-500;
+}
+
+.filter-active tr.row:not(.active) {
+  display: none;
+}
+
+.filter-twenty .above-twenty {
+  display: none!important;
+}
+
+.filter-finished .finished {
+  display: none!important;
+}
+
+.active {
+  @apply text-green-600;
+}
+
+.finished {
+  @apply line-through opacity-50;
+}
+
+tr:not(.active) .timer {
+  @apply text-red-400;
+}
